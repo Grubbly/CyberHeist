@@ -13,3 +13,9 @@ Individuals are tasked with breaking into some form of container said to hold so
 **3. Advanced**: After visiting the site, members will notice a video live stream. The camera will be facing away from another secret message. Members need to figure out how to move the camera in order to view the secret message. The message will be a path to a script for opening the physical safe.
 
 **4. Extra**: Inside the safe will be a small box with a lockpickable lock on it. Members need to utilize a provided lock pick set to retrieve the grand prize.
+
+## Notes
+Level 1 Credentials:
+* Username: Grubsy
+* Password: yakisobanoodles
+  * SHA256 hash
