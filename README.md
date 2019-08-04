@@ -1,5 +1,7 @@
 # CyberHeist
 Grabber lab for CSC Fall 2019
+
+![Sick AF programming mix](https://www.youtube.com/watch?v=XrisCsNzOlo)
 ## Description 
 Individuals are tasked with breaking into some form of container said to hold something of particular value. There are four levels to this lab:
 
