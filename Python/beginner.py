@@ -6,7 +6,7 @@ import binascii
 import colorama
 import cowsay
 
-USERNAME = "Grubsy"
+USERNAME = "grubsy"
 PASSWORD = "4aa765fdbe4bf83f7a51a1af53b170ad9e2aab35a9b9f0b066fd069952cffe44"
 
 # PASSWORD HINT: Tristan really likes noodles
@@ -51,7 +51,7 @@ def handleSelection(selection):
         print(colorama.Style.RESET_ALL)
         print(colorama.Back.BLUE + colorama.Fore.WHITE)
         try:
-            username = input("Username: ")
+            username = input("Username: ").lower()
             password = input("Password: ")
             hashedPassword = hashlib.sha256(password.encode()).hexdigest()
         except ValueError:
@@ -68,7 +68,7 @@ def handleSelection(selection):
             if password == PASSWORD:
                 cowsay.turtle("You copy and pasted the PASSWORD variable as the password you silly goose :P" + "\nThat variable is a SHA256 hash of the REAL password so it wont work :/ sry")
             if password == "ramannoodles":
-                print("I told you it PROBABLY wasnt raman noodles but you tried it anyway, ya bum.")
+                print("I told you it PROBABLY wasn't raman noodles but you tried it anyway, ya bum.")
             if password == "udonnoodles":
                 cowsay.turtle("I love these noodles, their THIQness makes them superior to all other noodles.")
             if username == USERNAME and hashedPassword == PASSWORD:
