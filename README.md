@@ -14,6 +14,10 @@ Individuals are tasked with breaking into some form of container said to hold so
 
 **4. Extra**: Inside the safe will be a small box with a lockpickable lock on it. Members need to utilize a provided lock pick set to retrieve the grand prize.
 
+## Ideas
+* Add incentives on the way to the grand prize so is not to discourage people as one person nears the end. We could probably do this by giving awards as people complete the levels
+* To lessen the experience gap, we could form small groups (maybe pairs or trios) for people to collaborate and solve the problem together. 
+
 ## Notes
 Level 1 Credentials:
 * Username: Grubsy
