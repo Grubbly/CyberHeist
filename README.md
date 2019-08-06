@@ -23,3 +23,7 @@ Level 1 Credentials:
 * Username: Grubsy
 * Password: yakisobanoodles
   * SHA256 hash
+  
+Pi Zero Default Creds:
+* Username: pi
+* Password: blueberry
