@@ -17,3 +17,6 @@ servo.ChangeDutyCycle(7.5)
 time.sleep(0.3)
 servo.ChangeDutyCycle(10)
 time.sleep(0.3)
+
+servo.stop()
+GPIO.cleanup()
