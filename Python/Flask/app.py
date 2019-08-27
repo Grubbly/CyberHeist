@@ -13,6 +13,6 @@ def control():
 
     if cameraRotation is not None:
         moveServo(cameraRotation)
-        return '<h1> Camera rotation set to: {} </h1>'.format(escape(cameraRotation))
+        return '<h1> Camera rotation set to: {} </h1> <div><iframe src="0.0.0.0:8000/index.html"></iframe><div>'.format(escape(cameraRotation))
     else:
-        return 'Camera rotation not set'
+        return '<h1> Camera rotation not set </h1> <div><iframe src="0.0.0.0:8000/index.html"></iframe><div>'
