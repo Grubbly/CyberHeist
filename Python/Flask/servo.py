@@ -10,7 +10,7 @@ def moveServo(positionVal):
     servo = GPIO.PWM(signalPin, 50)
     servo.start(7.5)
 
-    servo.ChangeDutyCycle(positionVal)
+    servo.ChangeDutyCycle(float(positionVal))
     time.sleep(0.5)
 
     servo.stop()
