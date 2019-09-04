@@ -5,12 +5,12 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def home():
-    return "<h1> Cyber Heist </h1>"
+    return "<div> <center> <h1> Cyber Heist </h1> </center> </div> <div> <a href=\"/camera?cameraRotation=something?password=something\"> Camera View </a> </div>"
 
 @app.route("/camera", methods=["GET"])
 def control():
     cameraRotation = request.args.get('cameraRotation')
-    password = request.args.get('password')
+    password = str(request.args.get('password'))
 
     if password == "udonnoodles":
         if cameraRotation is not None:

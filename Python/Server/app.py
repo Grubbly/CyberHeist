@@ -13,7 +13,7 @@ def control():
 
     if password == "udonnoodles":
         if cameraRotation is not None:
-            return '<center> <h1> Camera rotation set to: {} </h1> </center>'.format(escape(cameraRotation))
+            return '<center> <h1> You solved it! Raise your hand and we will get you setup with the real thing :) </h1> <h1> Camera rotation set to: {} </h1> </center>'.format(escape(cameraRotation))
         else:
             return '<center> <h1> Camera rotation not set </h1> </center>'
     else:
