@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def home():
-    return "<div> <center> <h1> Cyber Heist </h1> </center> </div> <div> <a href=\"/camera?cameraRotation=something?password=something\"> Camera View </a> </div>"
+    return "<div> <center> <h1> Cyber Heist </h1> </div> <div> <a href=\"/camera?cameraRotation=something&password=something\"> Camera View </a> </div> </center>"
 
 @app.route("/camera", methods=["GET"])
 def control():
