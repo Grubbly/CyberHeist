@@ -34,6 +34,7 @@ Explore what you have on the computer you have gained access to! Use some of the
 Raise your hand and show us that you have done the following:
 - [ ] Show the contents of the file called `beginner.py`
 - [ ] Open `beginner.py` with a command line text editor
+
 ### Level 2 - Reading Python
 You probably found some interesting files in the CyberHeist directory. Among them is a python script called `beginner.py`, it is suspected that this script contains login information for a particular user.
 
@@ -45,6 +46,7 @@ Explore how the program works by either using it or looking at the code. **You m
 
 Raise your hand when:
 - [ ] You see the dragon *rawr* :P
+
 ### Level 3 - Camera Controller
 You've gained some intel from a secret source that details a webcam has been setup near the secret safe. It is rumored that this camera may give you some clues on how to open the safe.
 
