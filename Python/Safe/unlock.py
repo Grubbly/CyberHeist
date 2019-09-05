@@ -17,8 +17,10 @@ try:
             time.sleep(0.5)
 
             servo.stop()
+            GPIO.cleanup()
         except Exception as ei:
             servo.stop()
+            GPIO.cleanup()
             print(ei)
 except Exception as eo:
     print(eo)
