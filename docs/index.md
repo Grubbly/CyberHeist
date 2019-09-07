@@ -20,11 +20,11 @@ Welcome to CSC! Today you will be 'hacking' into some insecure programs and Rasp
 
 | Linux Command 	|                                                Description                                               	| Example (What it looks like in Windows VS Linux) 	|
 |:-------------:	|:--------------------------------------------------------------------------------------------------------:	|:------------------------------------------------:	|
-|       `ls`      	|                                 Lists the contents of a folder/directory                                 	|   ![](lswin.PNG)                                               	|
-|       `cd`      	|                                  Changes the folder/directory you are in                                 	|   ![](cdwin.gif)                                               	|
-|      `cat`      	|                                       Shows the contents of a file                                       	|   ![](catwin.gif)                                              	|
-|      `nano`     	|                                 Command line text editor for editing code                                	|   ![](nanowin.gif)                                               	|
-|      `sudo`     	| Run something with escalated privileges (Think of this as running something as Administrator on Windows) 	|   ![](sudowin.gif)                                              	|
+|       `ls`      	|                                 Lists the contents of a folder/directory                                 	|   ![](lswin.PNG) ![](lsl.PNG)                                              	|
+|       `cd`      	|                                  Changes the folder/directory you are in                                 	|   ![](cdwin.gif) ![](cdl.PNG)                                              	|
+|      `cat`      	|                                       Shows the contents of a file                                       	|   ![](catwin.gif) ![](catl.PNG)                                             	|
+|      `nano`     	|                                 Command line text editor for editing code                                	|   ![](nanowin.gif) ![](nanol.gif)                                              	|
+|      `sudo`     	| Run something with escalated privileges (Think of this as running something as Administrator on Windows) 	|   ![](sudowin.gif) ![](sudol.PNG)                                             	|
 
 ## Challenges
 ___
